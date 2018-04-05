@@ -1,0 +1,41 @@
+<?php
+// declaracion de 5 variables
+$num1 =69;
+$num2 =37;
+$num3 =10;
+$num4 =89;
+$num5 =76;
+
+//realizando operaciones 
+$suma = $num1 + $num2 + $num3 + $num4 + $num5;
+$resta= $num1 - $num2 - $num3 - $num4 - $num5;
+$multiplicacion = $num1 * $num2 * $num3 * $num4 * $num5;
+$division = $num1/$num2/$num3/$num4/$num5;
+
+$nombre = "Marco cruz";
+$profesor = "Claudio morales";
+
+
+
+
+
+//imprimir resultado
+
+echo "numero 1 : " .$num1;
+echo "<br>";
+echo "numero 2 :" .$num2;
+echo "<br>";
+echo"numero 3 : " .$num3;
+echo "<br>";
+echo "numero 4 :" .$num4;
+echo "<br>";
+echo "numero 5 : " .$num5;
+echo "<br>";
+
+echo "la suma es: ".$suma."<br>";
+echo "la resta es: ".$resta."<br>";
+echo "la multiplicacion es: ".$multiplicacion."<br>";
+echo "la division es: ".$division."<br>";
+echo "programa operaciones basicas en php: ",$nombre."<br>";
+echo "por: " .$profesor."<br>";
+
